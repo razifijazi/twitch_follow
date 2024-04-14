@@ -13,4 +13,4 @@ for i in tokens_list:
         new_data = i
     new.append( new_data + "\n" )
 
-open("toekns_with_proxies.txt","w").writelines(new)
+open("tokens_with_proxies.txt","w").writelines(new)
